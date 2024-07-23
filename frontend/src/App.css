@@ -1,0 +1,100 @@
+.profile-background-color{
+    background-color: #3ABEF9;
+}
+
+/* ==================================== THESE STYLES FOR SCROLL BAR IN UPLOAD PRODUCT COMPONET ================  */
+.custom-scrollbar{
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+      } 
+
+    
+    
+ 
+} 
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+  }
+
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #38BDF8;
+  }
+
+
+
+.custom-scrollbar::-webkit-scrollbar-corner {
+    background: #999;
+  }
+
+/* ==================================== THESE STYLES FOR SCROLL BAR IN UPLOAD PRODUCT COMPONET  END HERE================  */
+
+/* =================================== THESE STYLES FOR HIDE ARROWS FROM INPUT TYPE NUMBER =========================== */
+.Hide-Arrows-From-Input-Number {
+  /* Hide spinner in Chrome, Safari, Edge, Opera */
+  -webkit-appearance: none;
+}
+
+.Hide-Arrows-From-Input-Number::-webkit-outer-spin-button,
+.Hide-Arrows-From-Input-Number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide spinner in Firefox */
+.Hide-Arrows-From-Input-Number {
+  -moz-appearance: textfield;
+}
+
+/* =================================== THESE STYLES FOR HIDE ARROWS FROM INPUT TYPE NUMBER END HERE =========================== */
+
+/* =================================== ALIGNING THE ALL PRODUCTS IN ROWS AND COLUMNS MINIMUM COLUMNS IS 5============== */
+
+.Align-all-products-items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px; /* Adjust the gap between items as needed */
+  padding: 10px;
+}
+
+/* =================================== ALIGNING THE ALL PRODUCTS IN ROWS AND COLUMNS MINIMUM COLUMNS IS 5 END HERE============== */
+
+/* ==================================== PRODUCT NAME WRAP IN ADMIN PRODUCT CART START HERE===================================*/
+.single-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap; /* Ensure that the text does not wrap */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.single-line:hover {
+  white-space: normal; /* Allows text to wrap */
+  -webkit-line-clamp: unset; /* Removes the line clamp */
+  overflow: visible; /* Displays the full text */
+}
+
+
+/* ==================================== PRODUCT NAME WRAP IN ADMIN PRODUCT CART END HERE===================================*/
+
+
+/* ===================================== DISPLAY SCROLL BAR HIDDERN START HERE =================================================== */
+
+.scrollbar-none::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+/* ===================================== DISPLAY SCROLL BAR HIDDERN START HERE =================================================== */
